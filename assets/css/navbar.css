@@ -4,7 +4,9 @@
 	left:0;
 	right:0;
 	width:100%;
-	z-index:999
+	z-index:999;
+	color: #009999;
+	
 }
 .header-area.header-style-two {
 	position:initial

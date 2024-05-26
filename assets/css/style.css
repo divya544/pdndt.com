@@ -4,7 +4,7 @@
 --paragraph-font-family: 'Roboto', sans-serif;
 --body-font-family: 'Barlow', sans-serif;
 --body-color: #646464;
---main-color: #e90b0b;
+--main-color: #ff2424;
 --optional-color: #009999;
 --heading-color: #111111;	
 --white-color: #ffffff;
@@ -30,7 +30,7 @@ a {
 }
 a:hover {
 	text-decoration:none;
-	color:var(--main-color)
+	color:var(--optional-color)
 }
 a:focus {
 	text-decoration:none
@@ -581,7 +581,7 @@ height:550px;
 background-color:#f8f8f8;
 z-index:-1
 }
-.about-area.about-area-style-two {
+.about-area. style-two {
 	overflow:hidden;
 	margin-left:24px
 }
@@ -603,10 +603,10 @@ display:none
 
 .about-img .year {
 	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
+	top: 195px;
+	left:190px;
+	width:40%;
+	height:40%;
 	-webkit-box-pack:center;
 	-ms-flex-pack:center;
 	justify-content:center;
